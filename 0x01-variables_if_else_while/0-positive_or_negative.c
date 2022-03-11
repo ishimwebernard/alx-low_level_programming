@@ -3,13 +3,15 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
- *This program is used to generate some random number
- *Description: The program uses srand to generate random numbers
- *which uses if statements to verify if it is positive or negative
- */
+/*Some comment*/
 int main(void)
 {
+/*
+* This is for main 
+*
+* Description: 
+* This function does whatever
+*/
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
