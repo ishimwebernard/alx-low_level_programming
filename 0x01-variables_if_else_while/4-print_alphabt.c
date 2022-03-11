@@ -3,7 +3,7 @@
 /*
 * main - the entry point of a program
 *
-* Retrun: Returns letters except the forbidden
+* Return: Returns letters except the forbidden
 */
 int main(void)
 {
