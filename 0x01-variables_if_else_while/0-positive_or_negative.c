@@ -5,6 +5,8 @@
 
 /**
 * main - this is the main function
+*
+* Return: return whether the number is +/-
 */
 int main(void)
 {
