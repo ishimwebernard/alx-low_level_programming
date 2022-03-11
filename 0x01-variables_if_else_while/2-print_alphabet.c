@@ -3,6 +3,7 @@
 /**
 * main - THe entry point of the program
 *
+* Return: The main function prints the alphabet
 */
 int main(void)
 {
@@ -15,4 +16,3 @@ int main(void)
 	putchar('\n');
 	return 0;
 }
-
