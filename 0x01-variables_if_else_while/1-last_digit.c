@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* 
+/**
 * main - The main function that calls everything
 *
 * Return: If the number is less than 6, greater than 5 or equal to zero
