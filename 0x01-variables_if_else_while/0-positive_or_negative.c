@@ -3,13 +3,18 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*Some comment*/
+/*
+* Main description
+*
+* Description:
+* THis stuff is hard
+*/
 int main(void)
 {
 /*
-* This is for main 
+* This is for main
 *
-* Description: 
+* Description:
 * This function does whatever
 */
 int n;
