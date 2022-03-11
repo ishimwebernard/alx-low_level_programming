@@ -4,10 +4,7 @@
 /* more headers goes there */
 
 /**
-* Main description
-*
-* Description:
-* THis stuff is hard
+* main - this is the main function
 */
 int main(void)
 {
