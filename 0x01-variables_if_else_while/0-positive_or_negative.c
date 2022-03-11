@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* This program is used to generate some random number
+ *Description: The program uses srand to generate random numbers
+ *which uses if statements to verify if it is positive or negative
+ */
 int main(void)
 {
 int n;
