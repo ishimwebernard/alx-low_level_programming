@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
 * main - the entry point of a program
 *
 * Return: Returns letters except the forbidden
