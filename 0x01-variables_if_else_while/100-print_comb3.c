@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int i,j;
+	int i, j;
 
 	for (i = 0; i < 9; i++)
 	{
@@ -20,7 +20,6 @@ int main(void)
 				}
 			}
 		}
-		
 	}
 	putchar('\n');
 	return (0);
