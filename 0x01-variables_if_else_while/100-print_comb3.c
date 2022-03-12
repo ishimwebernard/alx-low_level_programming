@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* main - the entry point
+*
+* Return: SHows possible combinations
+*/
 int main(void)
 {
 	int i, j;
