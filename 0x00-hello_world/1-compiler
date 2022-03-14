@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -c 0-main.c > 0-main.o  
+export CFILE="1-main"; gcc -E -c -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE.c > $CFILE.o
