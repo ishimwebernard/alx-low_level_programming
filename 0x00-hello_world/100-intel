@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="100-main"; gcc -S -Wall -Werror -Wextra -pedantic -std=gnu89 -m32 -masm=intel -S $CFILE.c
+export CFILE="100-main"; cat fire
