@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="100-main"; gcc -S $CFILE.c > $CFILE.s; cat $CFILE.s
+export CFILE="100-main"; gcc -S $CFILE.c > $CFILE.s
