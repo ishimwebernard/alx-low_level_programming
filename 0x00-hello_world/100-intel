@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="100-main"; cat fire
+export CFILE="100-main"; gcc -S -m64 -masm=intel -S $CFILE.c
