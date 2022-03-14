@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="1-main"; gcc -S  -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE.c > $CFILE.s
+export CFILE="2-main"; gcc -S  -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE.c > $CFILE.s
