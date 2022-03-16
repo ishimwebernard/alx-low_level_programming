@@ -41,7 +41,11 @@ void print_to_98(int n)
 	_putchar('\n');
 }
 
-
+/**
+ * custom_print - Print without libraries
+ * @n: number argument
+ * Return: Void returner
+ */
 void custom_print(int n)
 {
 	int count = 0;
