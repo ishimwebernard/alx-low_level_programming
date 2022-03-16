@@ -9,7 +9,7 @@
 int print_last_digit(int d)
 {
 	int retval;
-	
+
 	if (d < 0)
 		retval = 0 - (d % 10);
 	else
