@@ -1,5 +1,6 @@
 /**
 * _islower - see if the letter is lowercase or not
+* @c: The character to check for
 * Return: 1 or 0
 */
 
