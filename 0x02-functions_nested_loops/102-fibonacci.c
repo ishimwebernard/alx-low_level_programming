@@ -5,7 +5,7 @@ void custom_print(int n);
 int main(void)
 {
 	int first, last, i;
-	unsigned long long sum;
+	unsigned long sum;
 
 	first = 1;
 	last = 2;
@@ -15,7 +15,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		sum = first + last;
-		printf("%llu", sum);
+		printf("%lu", sum);
 		first = last;
 		last = sum;
 		if (i != 49)
