@@ -1,7 +1,12 @@
-#include <stdio.h>
-#include <ctype.c>
-
 int _islower(int c)
 {
-	return islower(c);
+	int return_value;
+	if(c >= 'a' && c <= 'z')
+	{
+		return_value = 1;
+	}else
+	{
+		return_value = 0;
+	}
+	return return_value;
 }
