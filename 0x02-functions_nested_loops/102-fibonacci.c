@@ -1,33 +1,29 @@
 #include "main.h"
+#include <stdio.h>
 void custom_print(int n);
 
 int main(void)
 {
-	int first, last, sum, i;
+	int first, last, i;
+	unsigned long long sum;
 
 	first = 1;
 	last = 2;
 
 	sum = 0;
-	_putchar(first + '0');
-	_putchar(',');
-	_putchar(' ');
-	_putchar(last + '0');
-	_putchar(',');
-	_putchar(' ');
+	printf("1, 2, ");
 	for (i = 0; i < 50; i++)
 	{
 		sum = first + last;
-		custom_print(sum);
+		printf("%llu", sum);
 		first = last;
 		last = sum;
 		if (i != 49)
 		{
-		_putchar(',');
-		_putchar(' ');
+		printf(", ");
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
 
