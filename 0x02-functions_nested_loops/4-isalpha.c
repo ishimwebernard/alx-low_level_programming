@@ -1,6 +1,6 @@
 /**
 * _isalpha - checks if the character is alpanumeric
-* @c character to check for
+* @c: character to check for
 * Return: 0 or 1
 */
 int _isalpha(int c)
