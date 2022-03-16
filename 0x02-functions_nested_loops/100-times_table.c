@@ -18,9 +18,10 @@ void print_times_table(int n)
 		{
 			temp = 4 - count_digits((i * j));
 			for (k = 0; k < temp; k++)
-				_putchar(' ');
+				if (j != 0)
+					_putchar(' ');
 			custom_print((i * j));
-			if (j != n)
+			if (j != n && n != 0)
 				_putchar(',');
 		}
 		_putchar('\n');
