@@ -78,6 +78,11 @@ void custom_print(int n)
 	}
 }
 
+/**
+ * print_negative - print negative numbers
+ * @n: argument
+ * Return: void
+ */
 void print_negative(int n)
 {
 	int absolute = _abs(n);
@@ -85,6 +90,11 @@ void print_negative(int n)
 	_putchar('-');
 	custom_print(absolute);
 }
+/**
+ * _abs - print absolute value
+ * @a: argument
+ * Return: return return value
+ */
 int _abs(int a)
 {
 	int retval;
