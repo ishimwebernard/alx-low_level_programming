@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
-* main - entry point
+* print_alphabet - function to print alphabet
 *
-* Return: return success
-*
+* Return: void
 */
 void print_alphabet(void)
 {
