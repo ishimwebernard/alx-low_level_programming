@@ -1,12 +1,19 @@
+/**
+* _islower - see if the letter is lowercase or not
+* Return: 1 or 0
+*/
+
 int _islower(int c)
 {
-	int return_value;
-	if(c >= 'a' && c <= 'z')
+	int retval;
+
+	if (c >= 'a' && c <= 'z')
 	{
-		return_value = 1;
-	}else
+		retval = 1;
+	} else
 	{
-		return_value = 0;
+		retval = 0;
 	}
-	return return_value;
+
+	return (retval);
 }
