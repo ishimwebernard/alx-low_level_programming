@@ -2,14 +2,14 @@
 
 /**
  *  print_line - print a line
- * 
+ *
  * @n: NUmber of times to print -
  */
 void print_line(int n)
 {
-    int i;
+	int i;
 
-    for (i = 1; i <= n; i++)
-        _putchar('_');
-    _putchar('\n');
+	for (i = 1; i <= n; i++)
+		_putchar('_');
+	_putchar('\n');
 }
