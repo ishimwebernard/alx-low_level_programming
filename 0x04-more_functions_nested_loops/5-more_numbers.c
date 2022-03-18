@@ -1,64 +1,24 @@
 #include "main.h"
 
-void custom_print(int n);
 /**
-*   more_numbers - print more numbers
-*   Return: void
-*/
+ * more_numbers - a function that prints 10 times the numbers, from 0 to 14
+ * _putchar only 3 times
+ * Return: 0-14 x10 followed by new line
+ */
 void more_numbers(void)
 {
-    int i, j;
-    
-    for (i = 0; i < 11; i++)
-    {
-        for (j = 0; j < 15; j++)
-            custom_print(j);
-        _putchar('\n');
-    }
-}
+	int i, ro;
 
-
-
-
-
-
-/**
- * custom_print - Print without libraries
- * @n: number argument
- * Return: Void returner
- */
-void custom_print(int n)
-{
-	int count = 0;
-	int number = n;
-	int loop, k, j;
-
-	do {
-		n /= 10;
-		++count;
-	} while (n != 0);
-
-	if (count <= 1)
+	for (ro = 0; ro < 10; ro++)
 	{
-		_putchar(number + '0');
-	}
-	else
-	{
-			loop = 10;
-		for (k = 2; k < count; k++)
+		for (i = 0; i <= 14; i++)
 		{
-			loop *= 10;
-		}
-		for (j = (count - 1); j >= 0; j--)
-		{
-			int temp_number;
-
-			temp_number = number / loop;
-			if (temp_number != 0)
+			if (i >= 10)
 			{
-				_putchar((temp_number % 10) + '0');
-				loop /= 10;
+				_putchar((i / 10) + '0');
 			}
+			_putchar((i % 10) + '0');
 		}
+		_putchar('\n');
 	}
 }
