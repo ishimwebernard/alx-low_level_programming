@@ -5,7 +5,7 @@
  *
  * @a: first value
  * @b: second value
- * Return: Voidint 
+ * Return: Voidint
  */
 void swap_int(int *a, int *b)
 {
