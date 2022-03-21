@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/**
+ * _puts - prints a string to stream
+ * @str: a string to print
+ * Return: printed string
+ */
+void _puts(char *str)
+{
+	printf("%s", str);
+}
