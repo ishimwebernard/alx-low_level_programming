@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/**
+ * _strlen - Determine length of a string
+ * @s: array character
+ * Return: integer
+ */
+int _strlen(char *s)
+{
+	int size;
+
+	size = sizeof(*s)/sizeof(char);
+	return size;
+}
